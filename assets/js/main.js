@@ -30,6 +30,6 @@ document.addEventListener("click", (e) => {
   } else if (element.classList.contains("zerar")) {
     clearInterval(timer);
     relogio.innerHTML = "00:00:00";
-    relogio.classList.add("pausado");
+    relogio.classList.remove("pausado");
   }
 });
